@@ -1,0 +1,42 @@
+#root {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+#demo-page-container {
+    background: linear-gradient(90deg, #6b0f68 0%, #ed7de9 100%);
+    align-items: center;
+    width: auto;
+    height: auto;
+    display: grid;
+}
+
+#usestate-container {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 1em;
+}
+
+#header-card {
+    margin: 2em;
+}
+
+#left-grid {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+  
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  
+}
+  
+#right-grid {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}

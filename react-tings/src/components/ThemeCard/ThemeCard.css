@@ -1,0 +1,24 @@
+hr {
+    width: 100%;
+
+    margin-left: 0;
+    margin-top: 0.2em;
+    
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+#theme-card-component {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#theme-card-name {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+#theme-card-themes {
+    font-weight: bold;
+}
